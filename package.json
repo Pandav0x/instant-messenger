@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Pandav0x/instant-messenger/issues"
   },
-  "homepage": "https://github.com/Pandav0x/instant-messenger#readme"
+  "homepage": "https://github.com/Pandav0x/instant-messenger#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
