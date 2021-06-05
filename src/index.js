@@ -6,6 +6,8 @@ const http = require('http');
 const server = http.Server(app);
 const path = require('path');
 
+app.use('/assets', express.static('assets'));
+
 app.get('/', function (req, res) {
     res.sendFile(path.resolve('public/index.html'));
 });
