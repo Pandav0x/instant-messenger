@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,52 @@
     <title>instant-messenger</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
-    <h1>Title</h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed consequat erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent porta metus ut metus mattis vulputate. Phasellus vitae suscipit massa, in bibendum est. Donec sed est erat. Aenean at odio in ex viverra tincidunt ut at odio. Sed quam dolor, tincidunt quis egestas ac, sodales eget magna. Nunc viverra quam congue odio vulputate aliquet. Aliquam et diam ac nisl accumsan dapibus vel id lectus. Nulla quis nulla sed tortor volutpat interdum. 
-    </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+
+                <h1>Name</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed consequat erat. Vestibulum
+                    ante ipsum
+                    primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent porta metus ut metus
+                    mattis
+                    vulputate. Phasellus vitae suscipit massa, in bibendum est. Donec sed est erat. Aenean at odio in ex
+                    viverra
+                    tincidunt ut at odio. Sed quam dolor, tincidunt quis egestas ac, sodales eget magna. Nunc viverra
+                    quam congue
+                    odio vulputate aliquet. Aliquam et diam ac nisl accumsan dapibus vel id lectus. Nulla quis nulla sed
+                    tortor
+                    volutpat interdum.
+                </p>
+            </div>
+
+            <div class="message">
+                <form method="post">
+                    <p2>
+                        <label>Pseudo</label>
+                        <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" size="30" maxlength="10" />
+                    </p2></br>
+
+                    <p3>
+                        <label>Message</label>
+                        <textarea name="message" id="message" placeholder="Message" size="30" rows="10"
+                            cols="50"></textarea>
+                        <input type="color" />
+
+                    </p3>
+                    <div class="submit">
+                        <input type="submit" value="Envoyer" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
 </body>
+
 </html>
